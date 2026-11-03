@@ -1,0 +1,22 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*{
+margin: 0%;
+padding:0%;
+}
+:root {
+
+  --primary-color: #064e3b;
+
+  --secondary-color: #ffffff;
+
+  --accent-color: #10b981;
+
+  --footer-color: #020617;
+
+  --text-color: #1f2937;
+
+}

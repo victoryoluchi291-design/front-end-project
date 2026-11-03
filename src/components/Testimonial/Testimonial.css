@@ -1,0 +1,105 @@
+.testimonials {
+  width: 100%;
+  padding: 80px 30px;
+  background-color:  #e6e5ec;
+  box-sizing: border-box;
+}
+
+.testimonial-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #263238;
+  margin-bottom: 40px;
+}
+
+.Testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  border-radius: 16px !important;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-avatar {
+  width: 70px !important;
+  height: 70px !important;
+  margin: 0 auto 16px;
+}
+
+.member-name {
+  font-weight: 600 !important;
+  color: #064e3b;
+  margin-bottom: 8px !important;
+}
+
+/* Star ratings */
+.testimonial-card .MuiRating-iconFilled {
+  color: #ffc107;
+}
+
+.testimonial-card .MuiRating-iconEmpty {
+  color: #d3d3d3;
+}
+
+.review-comment {
+  color: #5f6368;
+  line-height: 1.7 !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+/* Read Review button */
+.testimonial-card .MuiButton-root {
+  border: 1px solid #064E38;
+  border-radius: 20px;
+  padding: 6px 20px;
+  margin-top: 15px;
+  color: white;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.testimonial-card .MuiButton-root:hover {
+  background-color:#020617 !important;
+  border: 1px solid #020617; 
+}
+
+/* Loading and error messages */
+.testimonials > p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .Testimonial-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 550px) {
+  .testimonials {
+    padding: 60px 20px;
+  }
+
+  .testimonial-heading {
+    font-size: 28px;
+  }
+
+  .Testimonial-container {
+    grid-template-columns: 1fr;
+  }
+}

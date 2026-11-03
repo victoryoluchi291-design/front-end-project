@@ -1,0 +1,413 @@
+/* WALLET PAGE */
+
+.wallet-page {
+
+  background: #f6f7fb;
+
+  min-height: calc(100vh - 170px);
+
+  padding: 15px 25px 40px;
+
+  font-family: inherit;
+
+}
+
+.wallet-container {
+
+  max-width: 900px;
+
+  margin: 0 auto;
+
+}
+
+/* Description */
+
+.wallet-description {
+
+  font-size: 20px;
+
+  color: black;
+
+  margin: 0 0 40px;
+
+  line-height: 1.5;
+
+}
+
+/* AVAILABLE BALANCE */
+
+.wallet-balance-card {
+
+  background: linear-gradient(135deg, #020617,  #020617);
+
+  color: white;
+
+  border-radius: 25px;
+
+  padding: 38px;
+
+  min-height: 220px;
+
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+
+  margin-bottom: 25px;
+
+}
+
+
+.wallet-card-heading {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  color: black;
+
+  font-size: 20px;
+
+}
+
+.wallet-balance-card .wallet-card-heading {
+
+  color: #dce0ff;
+
+}
+/* wallet cards hover effect */
+.wallet-balance-card,
+.wallet-stat-card,
+.wallet-section-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    /* Hover */
+ .wallet-balance-card:hover,
+.wallet-stat-card:hover,
+.wallet-section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px  rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+    
+
+.wallet-icon-box {
+
+  width: 64px;
+
+  height: 64px;
+
+  border-radius: 22px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-shrink: 0;
+
+}
+
+.balance-icon {
+
+  background: rgba(255, 255, 255, 0.18);
+
+  color: white;
+
+}
+
+.wallet-balance {
+
+  font-size: 42px;
+
+  font-weight: 700;
+
+  margin: 28px 0;
+
+  color: white;
+
+}
+
+.wallet-withdraw-btn {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 25px;
+
+  background: #064e3b;
+
+  color:white;
+
+  border: none;
+
+  padding: 15px 20px;
+
+  border-radius: 15px;
+
+  font-size: 17px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+}
+
+/* STAT CARDS */
+
+.wallet-stat-card {
+
+  background: white;
+
+  border-radius: 25px;
+
+  padding: 38px;
+
+  min-height: 180px;
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+
+  margin-bottom: 25px;
+
+}
+
+.earned-icon {
+
+  background: #e9f5ed;
+
+  color: #168b50;
+
+}
+
+.withdrawn-icon {
+
+  background: #e5f5f2;
+
+  color: #14876e;
+
+}
+
+.wallet-stat-amount {
+
+  font-size: 36px;
+
+  font-weight: 700;
+
+  color: black;
+
+  margin: 28px 0 0;
+
+}
+
+.earned-amount {
+
+  color: #159453;
+
+}
+
+/* TRANSACTION HISTORY */
+
+.wallet-section-card {
+
+  background: white;
+
+  border-radius: 25px;
+
+  padding: 38px;
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+
+  margin-bottom: 38px;
+
+}
+
+.wallet-section-card h3 {
+
+  font-size: 23px;
+
+  font-weight: 600;
+
+  color: #111827;
+
+  margin: 0;
+
+}
+
+.wallet-section-subtitle {
+
+  font-size: 20px;
+
+  color: black;
+
+  margin: 12px 0 65px;
+
+  line-height: 1.5;
+
+}
+
+.wallet-empty-transactions {
+
+  font-size: 20px;
+
+  color: black;
+
+  line-height: 1.6;
+
+}
+
+/* WITHDRAWALS */
+
+.withdrawals-heading {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+}
+
+.withdrawals-icon {
+
+  color: #3736a5;
+
+}
+
+.withdrawals-description {
+
+  font-size: 20px;
+
+  line-height: 1.5;
+
+  color: black;
+
+  margin: 15px 0 38px;
+
+}
+
+.add-bank-btn {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 22px;
+
+  padding: 15px 25px;
+
+  background: white;
+
+  color: #3736a5;
+
+  border: 2px solid #3736a5;
+
+  border-radius: 17px;
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+}
+
+.withdrawals-empty {
+
+  font-size: 20px;
+
+  line-height: 1.6;
+
+  color: black;
+
+  margin-top: 50px;
+
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 600px) {
+
+  .wallet-page {
+
+    padding: 12px 25px 40px;
+
+  }
+
+  .wallet-description {
+
+    font-size: 20px;
+
+    margin-bottom: 40px;
+
+  }
+
+  .wallet-balance-card {
+
+    padding: 38px;
+
+    min-height: 220px;
+
+    border-radius: 25px;
+
+  }
+
+  .wallet-stat-card {
+
+    padding: 38px;
+
+    min-height: 180px;
+
+    border-radius: 25px;
+
+  }
+
+  .wallet-section-card {
+
+    padding: 38px;
+
+    border-radius: 25px;
+
+  }
+
+  .wallet-card-heading {
+
+    font-size: 20px;
+
+  }
+
+  .wallet-balance {
+
+    font-size: 42px;
+
+  }
+
+  .wallet-stat-amount {
+
+    font-size: 36px;
+
+  }
+
+  .wallet-section-card h3 {
+
+    font-size: 23px;
+
+  }
+
+  .wallet-section-subtitle,
+
+  .wallet-empty-transactions,
+
+  .withdrawals-description,
+
+  .withdrawals-empty {
+
+    font-size: 20px;
+
+  }
+
+}

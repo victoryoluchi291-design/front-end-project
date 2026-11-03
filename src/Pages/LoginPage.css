@@ -1,0 +1,81 @@
+/* Container Background Layout */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f6f8; /* Change page background color here */
+  padding: 24px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Form Card Container */
+.login-card {
+  background: #ffffff; /* Change card background here */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  max-width: 450px;
+  width: 100%;
+}
+
+/* Header Text Styles */
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 8px 0;
+  color: #1a1a1a; /* Change heading text color */
+}
+
+.login-subtitle {
+  font-size: 0.95rem;
+  text-align: center;
+  color: #637381; /* Change subtext color */
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+/* Notification Alert Box */
+.status-alert {
+  margin-bottom: 24px !important;
+}
+
+/* Spacing out the Material UI Fields */
+.form-field {
+  margin-bottom: 20px !important;
+}
+
+/* Custom Primary Button Styles */
+.login-btn {
+  background-color: #020617!important; /* Change primary button color */
+  color: #ffffff !important;             /* Change button text color */
+  padding: 12px !important;
+  text-transform: none !important;       /* Removes all-caps default */
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+.login-btn:hover {
+  background-color: #1f2937 !important; /* Change button hover color */
+}
+
+/* Helper link layout (Forgot password, signup) */
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 0.875rem;
+}
+
+.form-link {
+  color:#020617;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,91 @@
+.help-page {
+background: #ffffff;
+padding: 30px 20px;
+min-height: 100vh;
+font-family: Arial, sans-serif;
+}
+
+/* Customer Care */
+.customer-care {
+text-align: center;
+margin-bottom: 45px;
+}
+
+.customer-care h1 {
+font-size: 28px;
+color: #222;
+margin-bottom: 12px;
+}
+
+.customer-care p {
+font-size: 16px;
+color: #666;
+line-height: 1.6;
+}
+
+/* Help Heading */
+.help-intro {
+text-align: center;
+margin-bottom: 35px;
+}
+
+.help-intro h2 {
+font-size: 27px;
+font-weight: 400;
+line-height: 1.5;
+color: #222;
+}
+
+/* General Questions Card */
+.help-card {
+max-width: 550px;
+margin: 0 auto;
+padding: 35px 25px;
+background:#064e3b; ;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.help-card h3 {
+font-size: 25px;
+font-weight: 400;
+margin-bottom: 18px;
+color: white;
+}
+
+.help-card p {
+font-size: 16px;
+color: white;
+line-height: 1.6;
+}
+
+.help-resolution {
+margin: 15px 0 25px;
+}
+
+.MuiButton-contained {
+background-color: white !important;
+color: #064e3b !important;
+border: none;
+padding: 14px 25px;
+border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+.MuiButton-contained:hover {
+background:  #10b981 !important
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+.help-intro h2 {
+font-size: 24px;
+}
+
+.help-card {
+padding: 30px 20px;
+}
+}

@@ -1,0 +1,63 @@
+/* Container Background Layout */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f6f8; /* Change page background color here */
+  padding: 24px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Form Card Container */
+.contact-card {
+  background: #ffffff; /* Change card background here */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Header Text Styles */
+.contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 8px 0;
+  color: #1a1a1a; /* Change heading text color */
+}
+
+.contact-subtitle {
+  font-size: 0.95rem;
+  text-align: center;
+  color:  #020617; /* Change subtext color */
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+/* Notification Alert Box */
+.status-alert {
+  margin-bottom: 24px !important;
+}
+
+/* Spacing out the Material UI Fields */
+.form-field {
+  margin-bottom: 20px !important;
+}
+
+/* Custom Primary Button Styles */
+.submit-btn {
+  background-color:#27965b !important; /* Change primary button color */
+  color: #ffffff !important;             /* Change button text color */
+  padding: 12px !important;
+  text-transform: none !important;       /* Removes all-caps default */
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+.submit-btn:hover {
+  background-color: #27965b !important; /* Change button hover color */
+}

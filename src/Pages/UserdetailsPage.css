@@ -1,0 +1,77 @@
+/* Container Background Layout */
+.userdetails-container {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  min-height: 100vh;
+  background-color:white ;/* Change page background color here */
+  padding: 24px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Form Card Container */
+.review-card {
+
+  background:white;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 10px 30px rgba(185, 7, 16, 0.05);
+
+  width: 100%;
+
+  max-width: 600px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  box-sizing: border-box;
+ 
+
+}
+
+/* Header Text Styles */
+.review-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 8px 0;
+  color: black; /* Change heading text color */
+}
+
+.review-subtitle {
+  font-size: 0.95rem;
+  text-align: center;
+  color:white; /* Change subtext color */
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+/* Notification Alert Box */
+.status-alert {
+  margin-bottom: 24px !important;
+}
+
+/* Spacing out the Material UI Fields */
+.form-field {
+  margin-bottom: 20px !important;
+}
+
+/* Custom Primary Button Styles */
+.review-btn {
+  background-color: #1976d2 !important; /* Change primary button color */
+  color: #ffffff !important;             /* Change button text color */
+  padding: 12px !important;
+  text-transform: none !important;       /* Removes all-caps default */
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+.review-btn:hover {
+  background-color: #115293 !important; /* Change button hover color */
+}

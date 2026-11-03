@@ -1,0 +1,202 @@
+.page-background {
+  min-height: 100vh;
+  width: 100%;
+ background-image: url("../../assets/images40.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+.background-content {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.background-writeup {
+  color: #ffffff;
+  margin-top: 150px;
+}
+
+.background-writeup h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.background-writeup p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .background-content {
+    padding: 20px 15px;
+  }
+
+  .background-writeup h1 {
+    font-size: 27px;
+  }
+
+  .background-writeup p {
+    font-size: 16px;
+  }
+}
+
+
+
+/* White section below the green background */
+.features-section {
+  width: 100%;
+  padding: 60px 6%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 35px;
+}
+
+/* Individual feature content */
+.feature-item {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: left;
+}
+
+.feature-item h2 {
+  color: #263238;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.feature-item p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .features-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .features-section {
+    grid-template-columns: 1fr;
+    padding: 35px 20px;
+    gap: 15px;
+  }
+
+  .feature-item h2 {
+    font-size: 21px;
+  }
+}
+/* Black boxes for Paid Surveys, Cash Offers, and Referrals */
+.feature-item {
+  background-color: #e7e3e3;
+  border-radius: 30px;
+  padding: 40px 25px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  cursor: pointer;
+ 
+}
+
+/* Feature headings */
+.feature-item h2 {
+  color:#064e3b;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* Feature descriptions */
+.feature-item p {
+  color: grey;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+  text-align:left
+}
+.cash-offers {
+  background-color:#020617;
+  color: white !important;
+}
+.cash-offers h2 {
+  color: white !important;
+}
+
+/* Keep the general section white and maintain three columns */
+.features-section {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  padding: 60px 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .features-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .features-section {
+    grid-template-columns: 1fr;
+    padding: 35px 20px;
+    gap: 25px;
+  }
+
+  .feature-item {
+    padding: 40px 25px;
+    border-radius: 40px;
+  }
+
+  .feature-item h2 {
+    font-size: 24px;
+  }
+
+  .feature-item p {
+    font-size: 18px;
+  }
+}
+body {
+
+  margin: 0;
+
+  background-color: var(--secondary-color);
+
+  color: var(--text-color);
+
+}
+
+.landing-page {
+
+  background-color: var(--secondary-color);
+
+  min-height: 100vh;
+
+}
+
+.hero {
+
+  background-color: var(--primary-color);
+
+  color: var(--secondary-color);
+
+}
